@@ -1,0 +1,25 @@
+{
+    "name": "eth-todo-list",
+    "version": "1.0.0",
+    "description": "Blockchain-based todo list",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+        },
+    "scripts": {
+        "dev":"lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "bootstrap": "^4.0.0",
+        "chai": "^4.0.2",
+        "chai-as-promised": "^7.1.1",
+        "chai-bignumber": "^7.0.0",
+        "lite-server": "^2.0.0",
+        "nodemon": "^1.18.3",
+        "truffle": "^5.4.23",
+        "truffle-contract": "^3.0.6"
+    }
+}
