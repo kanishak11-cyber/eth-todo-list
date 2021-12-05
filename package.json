@@ -5,21 +5,23 @@
     "main": "truffle-config.js",
     "directories": {
         "test": "test"
-        },
+    },
     "scripts": {
-        "dev":"lite-server",
+        "dev": "lite-server",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "bootstrap": "^4.0.0",
-        "chai": "^4.0.2",
-        "chai-as-promised": "^7.1.1",
-        "chai-bignumber": "^7.0.0",
-        "lite-server": "^2.0.0",
-        "nodemon": "^1.18.3",
         "truffle": "^5.4.23",
         "truffle-contract": "^3.0.6"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "chai": "^4.3.4",
+        "chai-as-promised": "^7.1.1",
+        "chai-bignumber": "^3.0.0",
+        "lite-server": "^2.6.1",
+        "nodemon": "^2.0.15"
     }
 }
